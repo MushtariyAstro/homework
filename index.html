@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <title>Uzum market page</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="container">
+    <header>
+            <div class="oneheader">
+           <div class="location">
+           <div style="display: flex; align-items: center; gap: 5px; font-size: 20px;">
+            <i class='bx bx-location-plus'></i>
+            <p> Shahar:Toshkent</p>
+           </div>
+            <p style="font-size: 18px;">Topshirish punktlari</p>
+           </div>
+           <div class="shops">
+            <a href="#" style="border-right: 1px solid gray; padding-right: 5px;">Sotuvchi bo'lish</a>
+            <a href="#">Topshirish punktini ochish</a>
+            <a href="#" style="color: black;">Savol-javob</a>
+            <a href="#" style="color: black;">Buyurtmalarim</a>
+            <div style="display: flex; align-items: center; gap: 10px;">
+            <img class="flag" src="./Flag_of_Uzbekistan.svg.png" alt="Flag_of_Uzbekistan">
+            <p>O'zbekcha</p>
+            </div>
+                </div>
+           </div>
+           <div class="twoheader">
+            <div style="display: flex; align-items: center; gap: 10px;">
+            <img  style="height: 40px; height: 40px; ;" src="./market-logo.png" alt="market-logo">
+            <h1>uzum market</h1>
+            </div>
+            
+            <div class="search-container">
+                <button class="catalog-btn">
+                  <i class='bx bx-menu'></i> Katalog
+                </button>
+                
+                <input type="text" placeholder="Mahsulotlar va turkumlar izlash">
+                <button class="search-btn">
+                  <i class='bx bx-search'></i>
+                </button>
+              </div>
+              
+              <div class="user-actions">
+                <div class="action-item">
+                  <i class='bx bx-user'></i>
+                  <p>Kirish</p>
+                </div>
+                <div class="action-item">
+                  <i class='bx bx-heart'></i>
+                  <p>Saralangan</p>
+                </div>
+                <div class="action-item">
+                  <i class='bx bx-shopping-bag'></i>
+                  <p>Savat</p>
+                </div>
+              </div>
+              
+        </div>
+    </header>
+
+    <section class="sectionone">
+        <a href="#">Hafta tovarlari</a>
+        <a href="#">Har kunlik foyda</a>
+        <a href="#">Elektronika</a>
+        <a href="#">Maishiy texnika</a>
+        <a href="#">Kiyim</a>
+        <a href="#">Poyabzallar</a>
+        <a href="#">Aksessuarlar</a>
+        <a href="#">Go'zallik va parvarish</a>
+        <a href="#">Salomatlik</a>
+        <a href="#">Uy ro'zg'oz buyumlari</a>
+    </section>
+
+    <section>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper" id="slider-container">
+              <!-- API'dan kelgan rasmlar shu yerga kiritiladi -->
+            </div>
+          
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+          
+    </section>
+
+    <section>
+      <h1 style="font-size: 30px; margin-left: 50px;">Mashhur ></h1>
+      <div class="stock">
+              <!-- API'dan kelgan rasmlar shu yerga kiritiladi -->
+      </div>
+    </section>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
